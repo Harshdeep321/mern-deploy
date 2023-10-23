@@ -1,0 +1,5 @@
+/.env
+/node_modules
+/package-lock.json
+/frontEnd_BookingApp/node_modules
+/frontEnd_BookingApp/package-lock.json

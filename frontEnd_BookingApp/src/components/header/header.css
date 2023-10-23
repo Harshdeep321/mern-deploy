@@ -1,0 +1,99 @@
+.header{
+    color:black;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://preview.colorlib.com/theme/marian/assets/img/hero/h1_hero.jpg.webp);
+    /* width:fit-content; */
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+
+}
+.header::before{
+    content: "";
+    position: absolute;
+    /* width: fit-content; */
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+   }
+.headerContainer{
+    color: white;
+    /* width: fit-content; */
+    max-width: 1024px;
+    z-index: 1;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+}
+
+.headertitle{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.headerDesc{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.headerSearchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.headerSearch{
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    border-radius: 6px;
+    padding: 8px 0px;
+    width: 100vh;
+}
+
+.headerIcon{
+    color: black;
+}
+
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+
+.headerSearchText{
+    color: rgb(160, 155, 155);
+    cursor: pointer;
+}
+
+.date{
+    position: absolute;
+    top: 426px;
+}
+
+.headerButton{
+   width: 12vh;
+   padding: 12px 10px;
+   background-color: blue;
+   color: white;
+   border: none;
+   cursor: pointer;
+   border-radius: 6px;
+}
